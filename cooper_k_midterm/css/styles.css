@@ -5,6 +5,9 @@ body {
 
 }
 
+h1 {
+    display: none;
+}
 
 header {
     background-color: rgb(124, 185, 40);
@@ -15,15 +18,14 @@ header {
 
 
 .welcome {
-    color: rgb(0, 0, 0);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
     font-size: larger;
     letter-spacing: 2px;
     position: absolute;
     margin: 4px;
     top: 3%;
     left: 12.2%;
-    right: 0%;
+    right: 12%;
     animation-name: fade;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
@@ -70,7 +72,7 @@ li, a, footer {
     display: inline;
     text-align: center;
 }
-#nav_button {
+#main_nav {
     height: 40px;
     width: 160px;
     margin: 2px;
@@ -82,7 +84,6 @@ li, a, footer {
 
 a {
     text-decoration: none;
-    color: white;
     letter-spacing: 1px;
     font-size: medium;
     text-align: center;
