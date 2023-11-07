@@ -13,10 +13,7 @@ header {
     
 }
 
-.banner {
-    padding: 0;
-    margin: 0;
-}
+
 .welcome {
     color: rgb(0, 0, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -60,7 +57,7 @@ header {
     width: 20px;
     position: absolute;
     left: 20px;
-
+    display: inline-block
 }
 
 #main-nav {
@@ -69,6 +66,10 @@ header {
     
 }
 
+li, a, footer {
+    display: inline;
+    text-align: center;
+}
 #nav_button {
     height: 40px;
     width: 160px;
@@ -84,6 +85,7 @@ a {
     color: white;
     letter-spacing: 1px;
     font-size: medium;
+    text-align: center;
 }
 
 a:hover {
@@ -127,7 +129,10 @@ input {
     background-color: brown;
     border: 3px solid black;
     padding-left: 10px;
-    padding-right: 10px;   
+    padding-right: 10px; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around; 
 }
 
 #image1 {
